@@ -1,0 +1,5 @@
+module Clibmosquitto [system] {
+  header "/usr/include/Clibmosquitto.h"
+  link "Clibmosquitto"
+  export *
+}
