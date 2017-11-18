@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Clibmosquitto",
     providers: [
-        .Brew("mosquitto"),
-        .Apt("libmosquitto-dev")
+        .brew(["mosquitto"]),
+        .apt(["libmosquitto-dev"])
     ]
 )
